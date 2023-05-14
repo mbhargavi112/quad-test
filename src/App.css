@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.movie{
+  width:80%;
+  height:80%;
+  object-fit: contain;
+}
+.product-container{
+  display:grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-gap: 1%;
+}
+.movie-details{
+  width:250px;
+  height:350px;
+  object-fit: contain;
+}
